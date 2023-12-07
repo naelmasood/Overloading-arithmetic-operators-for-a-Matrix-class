@@ -17,7 +17,7 @@ public:
     }
     Matrix operator*(const Matrix& other) const {
         return Matrix(
-            x11 * other.x11 + x12 * other.x21, x11 * other.x12 + x12 * other.x22, //add a comma 
+            x11 * other.x11 + x12 * other.x21, x11 * other.x12 + x12 * other.x22, //add a comma
             x21 * other.x11 + x22 * other.x21, x21 * other.x12 + x22 * other.x22
         );
     }
